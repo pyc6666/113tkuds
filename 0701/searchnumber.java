@@ -11,7 +11,7 @@ public class searchnumber {
 
         // 線性搜尋
         for (int num : s) {
-            System.out.println("比對中：x = " + x + "，目前元素 = " + num)
+            System.out.println("比對中：x = " + x + "，目前元素 = " + num);
             if (num == x) {
                 found = true;
                 break;
